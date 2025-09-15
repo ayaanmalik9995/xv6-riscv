@@ -40,7 +40,7 @@ int main() {
         int rowx[N];
         close(p[0]); // closing read end
         compute_row(i, rowx);
-        write(p[1], &i, sizeof(int)); row infex
+        write(p[1], &i, sizeof(int)); 
         write(p[1], rowx, sizeof(rowx)); // values in row
         close(p[1]);
         exit(0);
